@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Buy It</string>
+    <string name="button_main">Agregar Artículo</string>
+    <string name="activity2_name">Buy It</string>
+    <string name="editText_main">------------------------------------------</string>
+    <string name="text_header_reply">Artículo Agregado</string>
+</resources>
