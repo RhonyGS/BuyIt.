@@ -283,4 +283,35 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putBoolean("reply_visible", true);
+
+        outState.putString("reply_m1", m1.getText().toString());
+        outState.putString("reply_m2", m2.getText().toString());
+        outState.putString("reply_m3", m3.getText().toString());
+        outState.putString("reply_m4", m4.getText().toString());
+        outState.putString("reply_m5", m5.getText().toString());
+        outState.putString("reply_m6", m6.getText().toString());
+        outState.putString("reply_m7", m7.getText().toString());
+        outState.putString("reply_m8", m8.getText().toString());
+        outState.putString("reply_m9", m9.getText().toString());
+        outState.putString("reply_m10", m10.getText().toString());
+        outState.putString("reply_m11", m11.getText().toString());
+        outState.putString("reply_m12", m12.getText().toString());
+        outState.putString("reply_m13", m13.getText().toString());
+        outState.putString("reply_m14", m14.getText().toString());
+        outState.putString("reply_m15", m15.getText().toString());
+        outState.putString("reply_m16", m16.getText().toString());
+        outState.putString("reply_m17", m17.getText().toString());
+        outState.putString("reply_m18", m18.getText().toString());
+        outState.putString("reply_m19", m19.getText().toString());
+        outState.putString("reply_m20", m20.getText().toString());
+
+
+
+        outState.putInt("contador" ,count);
+    }
 }
