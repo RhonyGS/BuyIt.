@@ -7,4 +7,5 @@ android:layout_height="match_parent"
 tools:context=".SplashScreen"
 android:background="@drawable/logo">
 
+    //Splash al momento de iniciar la aplicacion
 </android.support.constraint.ConstraintLayout>

@@ -7,7 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 
 public class SplashScreen extends Activity {
-
+//Variable para el sonido del splash
     MediaPlayer player;
 
     @Override
@@ -19,6 +19,7 @@ public class SplashScreen extends Activity {
         player = MediaPlayer.create(getApplicationContext(), R.raw.intro);
         player.start();
 
+        //Duración del splash
         new android.os.Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

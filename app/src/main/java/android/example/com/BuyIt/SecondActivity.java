@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 
 public class SecondActivity extends AppCompatActivity {
-
+//TextViews correspondientes a los articulos
     public static final String EXTRA_MESSAGE = "android.example.com.BuyIt.extra.MESSAGE";
     private TextView appwatc;
     private TextView aud;
@@ -62,6 +62,7 @@ public class SecondActivity extends AppCompatActivity {
         pc = (TextView) findViewById(R.id.pc);
     }
 
+    //Metodos de seleccion para cada articulo. Pasa a la actividad principal y lo muestra.
     public void compraAw(View view) {
         Toast.makeText(SecondActivity.this,   "Artículo agregado", Toast.LENGTH_SHORT).show();
         String addart1 = appwatc.getText().toString();

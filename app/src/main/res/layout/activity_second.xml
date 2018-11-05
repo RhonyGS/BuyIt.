@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
     tools:context=".SecondActivity">
-
+    // ScrollView para poder visualizar los 20 articulos disponibles
     <android.support.constraint.ConstraintLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        //Creacion de botones y Vistas de Texto donde pueden elegir que comprar
         <Button
             android:id="@+id/button_second"
             android:layout_width="123dp"

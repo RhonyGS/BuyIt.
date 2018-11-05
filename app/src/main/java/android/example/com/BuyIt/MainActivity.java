@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
     int count = 1;
 
-
+//Se declaran las vistas de texto correspondientes a cada articulo
     private TextView m1;
     private TextView m2;
     private TextView m3;
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         m19 = (TextView) findViewById(R.id.text_message_reply19);
         m20 = (TextView) findViewById(R.id.text_message_reply20);
 
-
+//Guarda el articulo seleccionado
         if (savedInstanceState != null) {
 
             boolean isVisible = savedInstanceState.getBoolean("reply_visible");
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, TEXT_REQUEST);
     }
 
-
+//Muestra el articulo que se seleccionó
     public void onActivityResult(int requestCode, int resultCode,Intent data){
         super.onActivityResult(requestCode, resultCode, data);
 
@@ -284,6 +284,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Guarda la informacion para poder girar la pantalla
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
